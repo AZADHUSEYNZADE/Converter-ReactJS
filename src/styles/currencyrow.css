@@ -1,0 +1,52 @@
+.mainDiv {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 500px;
+  max-width: 100%;
+}
+input {
+  border-radius: 8px;
+  text-align: center;
+  border: 1px solid white;
+  font-size: 20px;
+  color: darkslategrey;
+  padding: 10px 0px;
+}
+
+input:focus,
+select:focus {
+  outline: none;
+}
+
+select {
+  text-align: center;
+  border-radius: 10px;
+  padding: 15px 0px;
+  background-color: #302b63;
+  border: none;
+  color: azure;
+}
+select > option {
+  color: azure;
+  border-radius: 8px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .mainDiv {
+    width: 250px;
+    margin-top: 20px;
+  }
+  select {
+    display: flex;
+    margin: 0 auto;
+    width: 100px;
+    margin-top: 10px;
+  }
+  select > option {
+    text-align: center;
+    margin-top: 10px;
+  }
+}
