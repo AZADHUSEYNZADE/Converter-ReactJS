@@ -67,7 +67,7 @@ function App() {
 
   return (
     <>
-      <h1>Currency Convertor</h1>
+      <h1>Currency Converter</h1>
       <div className="inputsDiv">
         <BsCurrencyExchange className="exchangeIcon" />
         <CurrencyRow
